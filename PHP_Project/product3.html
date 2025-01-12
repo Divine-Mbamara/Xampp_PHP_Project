@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="meta-data">
+    <meta name="description" content="CSS Final Project">
+    <title>Shop Stylish Clocks: Alarm, Wall, and Vintage Designs</title>
+    <!--add CSS files-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--add jquery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!--add JS file-->
+    <script src="js/custom-js.js"></script>
+    <!-- add Fontawesome -->
+    <script src="https://kit.fontawesome.com/627852edbd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Header -->
+<header id="header"></header>
+<main>
+    <div class="all-sections">
+        <section class="main-section">
+            <div>
+                <img src="./img/vintageAnalog/whiteVintage.jpg" alt="White Vintage Clock">
+            </div>
+            <div class="blue-background-color">
+                <h2>Vintage Design</h2>
+                <p>Bring timeless elegance to your space with the Vintage Analog Clock. Featuring a classic design and precision movement, this clock adds charm and reliability to any room.</p>
+                <h4>Features:</h4>
+                <p>Retro-inspired analog design</p>
+                <p>Durable and easy to hang</p>
+                <p>Quiet, accurate timekeeping</p>
+                <p>Perfect for traditional or rustic decor</p>
+                <form action="addtocart.php" method="post">
+                    <h4>Select a Color:</h4>
+                    <label>
+                        <input type="text" name="title" value="Vintage Design" hidden>
+                    </label>
+                    <label>
+                        <input type="text" name="picture" value="./img/vintageAnalog/whiteVintage.jpg" hidden>
+                    </label>
+                    <label>
+                        <input type="text" name="price" value="$59.99" hidden>
+                    </label>
+                    <label>
+                        <input type="radio" name="color" value="black" required> Black
+                    </label>
+                    <label>
+                        <input type="radio" name="color" value="yellow"> Orange
+                    </label>
+                    <label>
+                        <input type="radio" name="color" value="cream"> Pink
+                    </label>
+                    <label>
+                        <input type="radio" name="color" value="blue"> Blue
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="color" value="green"> Green
+                    </label>
+                    <label>
+                        <input type="radio" name="color" value="pink"> Purple
+                    </label>
+                    <label>
+                        <input type="radio" name="color" value="white"> White
+                    </label>
+                    <p><input type="submit" value="Add To Cart" class="hover-effect"></p>
+                </form>
+            </div>
+            <div class="white-description">
+                <h4>White Vintage Design</h4>
+                <p>"The white vintage analog clock evokes purity and simplicity, offering timeless style that complements a variety of home decor themes."</p>
+            </div>
+        </section>
+        <section class="first-section">
+            <div class="left">
+                <img src="./img/vintageAnalog/blackVintage.jpg" alt="Black Vintage Clock">
+            </div>
+            <div class="left">
+                <h4>Black Vintage Design</h4>
+                <p>"Classic and sophisticated"</p>
+            </div>
+            <div class="right">
+                <h4>Yellow Vintage Design</h4>
+                <p> "Warm and cheerful"</p>
+            </div>
+            <div class="right">
+                <img src="./img/vintageAnalog/yellowVintage.jpg" alt="Yellow Vintage Clock">
+            </div>
+        </section>
+        <section class="second-section">
+            <div class="left">
+                <img src="./img/vintageAnalog/creamVintage.jpg" alt="Cream Vintage Clock">
+            </div>
+            <div class="left">
+                <h4>Cream Vintage Design</h4>
+                <p>"Soft and refined"</p>
+            </div>
+            <div class="right">
+                <h4>Blue Vintage Design</h4>
+                <p>"Tranquil and serene"</p>
+            </div>
+            <div class="right">
+                <img src="./img/vintageAnalog/blueVintage.jpg" alt="Blue Vintage Clock">
+            </div>
+        </section>
+        <section class="third-section">
+            <div class="left">
+                <img src="./img/vintageAnalog/greenvintage.jpg" alt="Green Vintage Clock">
+            </div>
+            <div class="left">
+                <h4>Green Vintage Design</h4>
+                <p>"Earthy and refreshing"</p>
+            </div>
+            <div class="right">
+                <h4>Pink Vintage Design</h4>
+                <p> "Charming and delicate"</p>
+            </div>
+            <div class="right">
+                <img src="./img/vintageAnalog/pinkVintage.jpg" alt="Pink Vintage Clock">
+            </div>
+        </section>
+    </div>
+</main>
+<footer id="footer"></footer>
+</body>
+</html>

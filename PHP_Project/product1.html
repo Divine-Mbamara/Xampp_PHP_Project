@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="meta-data">
+    <meta name="description" content="CSS Final Project">
+    <title>Shop Stylish Clocks: Alarm, Wall, and Vintage Designs</title>
+    <!--add CSS files-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--add jquery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!--add JS file-->
+    <script src="js/custom-js.js"></script>
+    <!-- add Fontawesome -->
+    <script src="https://kit.fontawesome.com/627852edbd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Header -->
+<header id="header"></header>
+<main>
+    <div class="all-sections">
+        <section class="main-section">
+            <div>
+                <img src="./img/neonWall/whiteWall.jpg" alt="White Wall Clock">
+            </div>
+            <div class="blue-background-color">
+                <h2>Neon LED Wall Clock</h2>
+                <p>Transform your space with this sleek Neon LED Wall Clock. Featuring vibrant colors and a minimalist design, this clock is perfect for modern interiors with energy-efficient LED lighting and a variety of display colors.</p>
+                <h4>Features:</h4>
+                <p>Stylish neon glow for a contemporary look</p>
+                <p>Multiple vibrant colors to match your decor</p>
+                <p>Easy wall mounting</p>
+                <p>Energy-saving LED technology</p>
+                <form action="addtocart.php" method="post">
+                    <h4>Select a Color:</h4>
+                    <label>
+                        <input type="text" name="title" value="Neon LED Wall Clock" hidden>
+                    </label>
+                    <label>
+                        <input type="text" name="picture" value="./img/neonWall/whiteWall.jpg" hidden>
+                    </label>
+                    <label>
+                        <input type="text" name="price" value="$49.99" hidden>
+                    </label>
+                    <label>
+                        <input type="radio" name="color" value="black" required> Black
+                    </label>
+                    <label>
+                        <input type="radio" name="color" value="orange"> Orange
+                    </label>
+                    <label>
+                        <input type="radio" name="color" value="pink"> Pink
+                    </label>
+                    <label>
+                        <input type="radio" name="color" value="blue"> Blue
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="color" value="green"> Green
+                    </label>
+                    <label>
+                        <input type="radio" name="color" value="purple"> Purple
+                    </label>
+                    <label>
+                        <input type="radio" name="color" value="white"> White
+                    </label>
+                    <p><input type="submit" value="Add To Cart" class="hover-effect"></p>
+                </form>
+            </div>
+            <div class="white-description">
+                <h4>White Neon LED Wall</h4>
+                <p>"The white clock embodies simplicity and purity, making it a versatile choice for any aesthetic."</p>
+            </div>
+        </section>
+        <section class="first-section">
+            <div class="left">
+                <img src="./img/neonWall/blackWall.jpg" alt="Black Wall Clock">
+            </div>
+            <div class="left">
+                <h4>Black Neon LED Wall</h4>
+                <p>"Bold and sophisticated"</p>
+            </div>
+            <div class="right">
+                <h4>Orange Neon LED Wall</h4>
+                <p>"Energy and warmth"</p>
+            </div>
+            <div class="right">
+                <img src="./img/neonWall/orangeWall.jpg" alt="Orange Wall Clock">
+            </div>
+        </section>
+        <section class="second-section">
+            <div class="left">
+                <img src="./img/neonWall/pinkWall.jpg" alt="Pink Wall Clock">
+            </div>
+            <div class="left">
+                <h4>Pink Neon LED Wall</h4>
+                <p>"Soft and charming"</p>
+            </div>
+            <div class="right">
+                <h4>Blue Neon LED Wall</h4>
+                <p>"Relaxing and soothing"</p>
+            </div>
+            <div class="right">
+                <img src="./img/neonWall/blueWall.jpg" alt="Blue Wall Clock">
+            </div>
+        </section>
+        <section class="third-section">
+            <div class="left">
+                <img src="./img/neonWall/greenWall.jpg" alt="Green Wall Clock">
+            </div>
+            <div class="left">
+                <h4>Green Neon LED Wall</h4>
+                <p>"Harmony and balance"</p>
+            </div>
+            <div class="right">
+                <h4>Purple Neon LED Wall</h4>
+                <p>"Luxurious and regal"</p>
+            </div>
+            <div class="right">
+                <img src="./img/neonWall/purpleWall.jpg" alt="Purple Wall Clock">
+            </div>
+        </section>
+    </div>
+</main>
+<footer id="footer"></footer>
+</body>
+</html>
