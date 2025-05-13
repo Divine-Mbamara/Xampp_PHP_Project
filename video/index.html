@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="meta-data">
+    <meta name="description" content="CSS Final Project">
+    <title>Shop Stylish Clocks: Alarm, Wall, and Vintage Designs</title>
+    <!--add CSS files-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--add jquery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!--add JS file-->
+    <script src="js/custom-js.js"></script>
+    <!-- add Fontawesome -->
+    <script src="https://kit.fontawesome.com/627852edbd.js" crossorigin="anonymous"></script>
+    <!--add fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Header -->
+<header id="header"></header>
+<!-- Masthead -->
+<section class="masthead">
+    <!--masthead image-->
+    <div class="mast-image">
+        <img src="./img/masthead.jpg" alt="clock image">
+    </div>
+    <!--masthead text-->
+    <div class="mast-text">
+        <h1><span class="main-color">Timeless Style!</span><span class="another-color"> Adorn Your Space with Every Tick!</span></h1>
+        <a class="shop-button" href="shop.html">
+            <svg><rect></rect></svg>Shop Now
+        </a>
+    </div>
+</section>
+<main>
+    <!-- Brief Intro -->
+    <section class="intro">
+        <div class="intro-text">
+            <h2 class="left">Brighten Up Your Space with Timeless Style</h2>
+            <p>Discover clocks designed to do more than just tell time. Our collection blends functionality with standout design, creating pieces that add personality and ambiance to any room.</p>
+        </div>
+        <div>
+            <h3>Why Choose Our Clocks?</h3>
+            <div class="reasons">
+                <div class="reason">
+                    <i class="fa-solid fa-sliders"></i>
+                    <p class="sub-title">Customizable LED Colors</p>
+                </div>
+                <div class="reason">
+                    <i class="fa-regular fa-gem"></i>
+                    <p class="sub-title">Stylish and Functional</p>
+                </div>
+                <div class="reason">
+                    <i class="fa-solid fa-battery-full"></i>
+                    <p class="sub-title">Long-lasting Quality</p>
+                </div>
+                <div class="reason">
+                    <i class="fa-solid fa-record-vinyl"></i>
+                    <p class="sub-title">Vintage Meets Modern</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Loop Video -->
+    <section class="loop-video">
+        <h2>Experience Timeless Elegance in Every Second!</h2>
+        <video muted autoplay loop>
+            <source src="./video/backgroundVideo.mp4" type="video/mp4">
+        </video>
+    </section>
+    <!-- Products -->
+    <section>
+        <div class="Product-subtitle">
+            <h2 class="left">Our Products</h2>
+        </div>
+        <div class = "Products">
+            <div class="Product">
+                <a href="product1.html">
+                    <img src="./img/neonWall/whiteWall.jpg" alt="Clock 1">
+                    <p class="sub-title">Neon LED Wall Clock</p>
+                    <p class="hover-effect">Buy Now</p>
+                </a>
+
+            </div>
+            <div class="Product">
+                <a href="product2.html">
+                    <img src="./img/neonAlarm/whiteAlarm.jpg" alt="Clock 2">
+                    <p class="sub-title">Neon LED Alarm Clock</p>
+                    <p class="hover-effect">Buy Now</p>
+                </a>
+            </div>
+            <div class="Product">
+                <a href="product3.html">
+                    <img src="./img/vintageAnalog/whiteVintage.jpg" alt="Clock 3">
+                    <p class="sub-title">Vintage Clock Design</p>
+                    <p class="hover-effect">Buy Now</p>
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer id="footer"></footer>
+</body>
+</html>
